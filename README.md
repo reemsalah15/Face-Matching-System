@@ -83,7 +83,7 @@ history = age_model.fit(
 
 * **Validation MAE**: \~4 years
 * **Learning Curve**:
-  ![Age Prediction](examples/example_age_prediction.png)
+  ![Age Prediction](MAE.png)
 
 ### ✅ **Face Matching**
 
