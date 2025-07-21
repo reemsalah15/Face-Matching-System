@@ -84,7 +84,7 @@ history = age_model.fit(
 * **Validation MAE**: \~4 years
 * **Learning Curve**:
   
-  ![Age Prediction](MAE.png)
+  ![Age Prediction](examples/MAE.png)
 
 ### ✅ **Face Matching**
 
@@ -93,7 +93,7 @@ history = age_model.fit(
 * **ROC-AUC**: \~0.9
 * **ROC Curve**:
   
-  ![ROC Curve](ROC_CURVE.png)
+  ![ROC Curve](examples/ROC_CURVE.png)
 
 ---
 
@@ -108,7 +108,7 @@ pred = predict_age("path_to_image.jpg")
 print(f"Predicted Age: {pred}")
 ```
 
-![Age Prediction](example_age_prediction.png)
+![Age Prediction](examples/example_age_prediction.png)
 
 ### **Face Matching Example**
 
@@ -121,12 +121,12 @@ full_inference(img1_path, img2_path)
 ✅ **Same Person Detected**
 
 
-![Same Person](true_matching.png)
+![Same Person](examples/true_matching.png)
 
 ❌ **Different People**
 
 
-![Different Person](false_matching.png)
+![Different Person](examples/false_matching.png)
 
 ---
 
