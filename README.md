@@ -106,7 +106,7 @@ pred = predict_age("path_to_image.jpg")
 print(f"Predicted Age: {pred}")
 ```
 
-![Age Prediction](examples/example_age_prediction.png)
+![Age Prediction](example_age_prediction.png)
 
 ### **Face Matching Example**
 
