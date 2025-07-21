@@ -83,6 +83,7 @@ history = age_model.fit(
 
 * **Validation MAE**: \~4 years
 * **Learning Curve**:
+  
   ![Age Prediction](MAE.png)
 
 ### ✅ **Face Matching**
@@ -91,7 +92,8 @@ history = age_model.fit(
 * **Accuracy**: \~76%
 * **ROC-AUC**: \~0.9
 * **ROC Curve**:
-  ![ROC Curve](examples/example_face_matching_true.png)
+  
+  ![ROC Curve](ROC_CURVE.png)
 
 ---
 
@@ -117,10 +119,14 @@ full_inference(img1_path, img2_path)
 ```
 
 ✅ **Same Person Detected**
-![Same Person](examples/example_face_matching_true.png)
+
+
+![Same Person](true_matching.png)
 
 ❌ **Different People**
-![Different Person](examples/example_face_matching_false.png)
+
+
+![Different Person](false_matching.png)
 
 ---
 
